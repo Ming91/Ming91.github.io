@@ -134,6 +134,7 @@ kramdown:
 collections:
   diary:
     output: true
+    permalink: /:collection/:path/
   tabs:
     output: true
     sort_by: order

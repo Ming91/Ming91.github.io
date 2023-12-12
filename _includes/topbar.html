@@ -12,6 +12,10 @@
         <!-- index page -->
         <span>{{ site.data.locales[include.lang].tabs.home | capitalize }}</span>
 
+      {% elsif page.layout == 'diary' %}
+          <!-- index page -->
+          <span>{{ 'diary' | capitalize }}</span>
+
       {% else %}
         {% for item in paths %}
           {% if forloop.first %}
