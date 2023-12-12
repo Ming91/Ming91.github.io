@@ -211,4 +211,14 @@
     color: #24292f;
     font-weight: bold;
   }
+
+//   .leetcode-icon {
+//     color: #3a3a3a;
+//   }
+  .leetcode-icon {
+    filter: invert(60%); /* Initial filter in light mode */
+  }
+  .leetcode-icon:hover {
+    filter: brightness(80%); /* Filter on hover in light mode */
+  }
 } /* light-syntax */

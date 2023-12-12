@@ -190,6 +190,7 @@ exclude:
   - LICENSE
   - rollup.config.js
   - package*.json
+  - _tabs/diary.md
 
 jekyll-archives:
   enabled: [categories, tags]

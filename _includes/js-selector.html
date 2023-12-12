@@ -68,6 +68,14 @@
 {% capture script %}/assets/js/dist/{{ js }}.min.js{% endcapture %}
 <script defer src="{{ script | relative_url }}"></script>
 
+<!-- iconify -->
+<!-- {% capture script %}https://cdn.jsdelivr.net/npm/iconify@1.4.0/src/browser/index.min.js{% endcapture %} -->
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/iconify@1.4.0/src/browser/index.min.js"></script> -->
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+<!-- <script src="/assets/js/custom/iconify.js"></script> -->
+
 {% if page.math %}
   <!-- MathJax -->
   <script>

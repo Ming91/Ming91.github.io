@@ -161,4 +161,15 @@
   .highlight .ss {
     color: #90a959;
   }
+  
+//   .leetcode-icon {
+//     fill: #b0b0b0;
+//   }
+
+  .leetcode-icon {
+    filter: invert(60%); /* Initial filter in dark mode */
+  }
+  .leetcode-icon:hover {
+    filter: invert(90%); /* Filter on hover in dark mode */
+  }
 }

@@ -44,3 +44,6 @@ clipboard:
 
 mathjax:
   js: /assets/lib/mathjax/tex-chtml.js
+
+iconify:
+  js: /assets/js/custom/iconify.js
