@@ -16,7 +16,7 @@ timezone: America/New_York
 
 title: Ming91 # the main title
 
-tagline: A GitHub page blog # it will display as the sub-title
+tagline: Endless Learning, Practicing, and Enjoying # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
